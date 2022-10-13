@@ -19,7 +19,7 @@ for (let i = 0; i < 4; i++) {
 }
 
 //Combinando ford con switch e if
-for(let i; i < 6; i++){
+for(let i=0; i < 6; i++){
     switch (i) {
         case 0:
             {
@@ -29,36 +29,36 @@ for(let i; i < 6; i++){
         case 1:
             {
                 let numero = "indefinida";
-                i % 0 ? numero == "par": numero== "inpar";
-                console.log('Estamos en el idice ' + (i+1)+ ' '+ 'aloja a un numero '+ numero);
+                (i % 2) == 0 ? numero = "par": numero = "impar";
+                console.log('El indice '+i+' es un número '+ numero);
             }
             break;
         case 2:
             {
                 let numero = "indefinida";
-                i % 0 ? numero == "par" : numero == "inpar";
-                console.log('Estamos en el idice ' + (i + 1) + ' ' + 'aloja a un numero ' + numero);
+                (i % 2) == 0 ? numero = "par" : numero = "impar";
+                console.log('El número ' + i + ' es un número ' + numero);
             }
-            break;
+            break
         case 3:
             {
                 let numero = "indefinida";
-                i % 0 ? numero == "par" : numero == "inpar";
-                console.log('Estamos en el idice ' + (i + 1) + ' ' + 'aloja a un numero ' + numero);
+                (i % 2) == 0 ? numero = "par" : numero = "impar";
+                console.log('El número ' + i + ' es un número ' + numero);
             }
             break;
         case 4:
             {
                 let numero = "indefinida";
-                i % 0 ? numero == "par" : numero == "inpar";
-                console.log('Estamos en el idice ' + (i + 1) + ' ' + 'aloja a un numero ' + numero);
+                (i % 2) == 0 ? numero = "par" : numero = "impar";
+                console.log('El número ' + i + ' es un número ' + numero);
             }
             break;
         case 5:
             {
                 let numero = "indefinida";
-                i % 0 ? numero == "par" : numero == "inpar";
-                console.log('Estamos en el idice ' + (i + 1) + ' ' + 'aloja a un numero ' + numero);
+                (i % 2) == 0 ? numero = "par" : numero = "impar";
+                console.log('El número ' + i + ' es un número ' + numero);
             }
             break;
     
