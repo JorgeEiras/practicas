@@ -50,6 +50,11 @@ function detalle() {
     ultimo();
 }
 
+function borrar(String, number) {
+    console.info("Se quitan " + number +" a partir de " + String);
+    colores.splice(colores.indexOf(String),number);
+}
+
 detalle();
 agrega_final("negro")
 detalle();
@@ -59,3 +64,25 @@ agrega_inicio("blanco")
 detalle();
 quitar_inicio();
 detalle();
+borrar("azul",2);
+detalle();
+
+console.error("-------------------------");
+
+var numeros = [5000, 13000, 22000, 3400];
+
+function chequeo(elem){
+    return elem < 6000;
+}
+
+var instancia = numeros.every(chequeo);
+console.log(instancia);
+
+var instancia = numeros.filter(chequeo);
+console.log(instancia);
+
+var instancia = numeros.some(chequeo);
+console.log(instancia);
+
+
+
