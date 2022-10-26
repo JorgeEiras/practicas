@@ -2,6 +2,7 @@
 const etiquetas = new Array('nombre', 'apellido', 'cantidad', 'email');
 
 function calculo() {
+    console.log("en focus")
     var cantidad = document.getElementById('cantidad').value,
         categoria = document.getElementById('categoria').value;
 
@@ -37,6 +38,7 @@ function calculo() {
         }
     } else window.alert('Porfavor ingresar numeros enteros');
 };
+
 
 function borrar() {
     for (let i = 0; i < etiquetas.length; i++){
