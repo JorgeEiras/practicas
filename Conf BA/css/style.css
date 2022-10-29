@@ -9,9 +9,17 @@
     font-size: 1em;
 }
 .position{
-    position: absolute;
-    top:20vh;
+    position:absolute;
+    top: 25vmin;
 }
 .section {
 filter: brightness(0.5);
+}
+ .responsiveElement {
+     font-size: 2vh;
+}
+.box {
+    width: 250px;
+    height: 250px;
+    overflow:auto;
 }
